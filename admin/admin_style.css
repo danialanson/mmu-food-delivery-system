@@ -1,0 +1,99 @@
+*{
+    transition: none;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: black;
+}
+
+button, #approveBtn, #rejectBtn {
+    padding: 5px 10px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#rejectBtn, #disapproveBtn {
+    background-color: #f44336;
+}
+#disapproveBtn {
+    float: right;
+}  
+#approveBtn {
+    background-color: #4CAF50;
+    margin-right: 10px;
+}
+
+textarea {
+    width: 40em;
+}
+
+#content {
+    height: 10em;
+}
+
+#subject {
+    height: 2em;
+}
+
+table{
+    font-size: 150%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+.table-container {
+    margin-top: 2em;
+    flex: 1;
+}
+
+.listTable {
+    width: 75%;
+}
+.listTable th, .listTable td {
+    padding: 8px;
+    text-align: center;
+}
+.listTable th {
+    background-color: grey;
+    color: white;
+}
+.listTable .newBtnHeader {
+    background-color: transparent;
+    text-align: left;
+}
+.listTable a:hover {
+    color: #fff;
+    background-color: grey;
+}
+
+.formTable {
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}        
+.formTable th, td {
+    padding: 10px;
+    text-align: left;
+}        
+.formTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}         
+
+.footer {
+    margin-top: auto;
+}
