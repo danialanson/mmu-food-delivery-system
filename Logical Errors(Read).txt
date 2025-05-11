@@ -1,0 +1,12 @@
+hi, if youre reading this, these are the only logical issues left in the code(mostly vendor side), and unfortunately i have ran out of time (2am)
+if you are free/want to try,or still accepting amendments, below are the listed logical errors that i did not solve in time.
+else, it is what it is.
+
+vendor_shopmanagement.php
+1. the fuction dropdown option for toggling available and unavailable for a food item does not work.
+2. restaurant management option shows everyone's shop item, and every vendor can see it
+3. if you're not the food item owner, clicking the delete button on an item will result in an sql error.
+4. if you're not the food item owner, trying to add an item will result in vendor error, same goes for editing the item
+5. If you have ocd, the items in restaurant management are not aligned
+
+That is all.
